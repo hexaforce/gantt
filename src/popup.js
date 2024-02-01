@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 export default class Popup {
   constructor(parent, custom_html) {
     this.parent = parent

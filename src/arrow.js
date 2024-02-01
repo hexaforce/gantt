@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { createSVG } from './svg_utils'
 
 export default class Arrow {

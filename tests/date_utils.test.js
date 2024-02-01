@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import date_utils from '../src/date_utils'
 
 test('Parse: parses string date', () => {

@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 const YEAR = 'year'
 const MONTH = 'month'
 const DAY = 'day'

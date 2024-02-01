@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import date_utils from './date_utils'
 import { $, createSVG } from './svg_utils'
 import Bar from './bar'
