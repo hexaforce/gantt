@@ -7,7 +7,7 @@ const dev = {
     input: 'src/index.js',
     output: {
         name: 'Gantt',
-        file: 'dist/frappe-gantt.js',
+        file: 'dist/hexaforce-gantt.js',
         sourcemap: true,
         format: 'iife',
     },
@@ -21,7 +21,7 @@ const prod = {
     input: 'src/index.js',
     output: {
         name: 'Gantt',
-        file: 'dist/frappe-gantt.min.js',
+        file: 'dist/hexaforce-gantt.min.js',
         sourcemap: true,
         format: 'iife',
     },

@@ -1,30 +1,30 @@
 <div align="center">
-    <img src="https://github.com/frappe/design/blob/master/logos/logo-2019/frappe-gantt-logo.png" height="128">
-    <h2>Frappe Gantt</h2>
+    <img src="https://github.com/hexaforce/design/blob/master/logos/logo-2019/hexaforce-gantt-logo.png" height="128">
+    <h2>Hexaforce Gantt</h2>
     <p align="center">
         <p>A simple, interactive, modern gantt chart library for the web</p>
-        <a href="https://frappe.github.io/gantt">
+        <a href="https://hexaforce.github.io/gantt">
             <b>View the demo »</b>
         </a>
     </p>
 </div>
 
 <p align="center">
-    <a href="https://frappe.github.io/gantt">
+    <a href="https://hexaforce.github.io/gantt">
         <img src="https://cloud.githubusercontent.com/assets/9355208/21537921/4a38b194-cdbd-11e6-8110-e0da19678a6d.png">
     </a>
 </p>
 
 ### Install
 ```
-npm install frappe-gantt
+npm install hexaforce-gantt
 ```
 
 ### Usage
 Include it in your HTML:
 ```
-<script src="frappe-gantt.min.js"></script>
-<link rel="stylesheet" href="frappe-gantt.css">
+<script src="hexaforce-gantt.min.js"></script>
+<link rel="stylesheet" href="hexaforce-gantt.css">
 ```
 
 And start hacking:
@@ -72,7 +72,7 @@ If you want to contribute enhancements or fixes:
 5. Open `index.html` in your browser, make your code changes and test them.
 
 ### Publishing
-If you have publishing rights (Frappe Team), follow these steps to publish a new version.
+If you have publishing rights (Hexaforce Team), follow these steps to publish a new version.
 
 Assuming the last commit (or a couple of commits) were enhancements or fixes,
 
@@ -98,4 +98,4 @@ Assuming the last commit (or a couple of commits) were enhancements or fixes,
 License: MIT
 
 ------------------
-Project maintained by [frappe](https://github.com/frappe)
+Project maintained by [hexaforce](https://github.com/hexaforce)

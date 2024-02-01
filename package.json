@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frappe/gantt.git"
+    "url": "https://github.com/hexaforce/gantt.git"
   },
   "files": [
     "src",
@@ -30,12 +30,12 @@
     "interactive gantt",
     "project management"
   ],
-  "author": "Faris Ansari",
+  "author": "Tomokazu Tantaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frappe/gantt/issues"
+    "url": "https://github.com/hexaforce/gantt/issues"
   },
-  "homepage": "https://github.com/frappe/gantt",
+  "homepage": "https://github.com/hexaforce/gantt",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",

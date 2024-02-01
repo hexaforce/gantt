@@ -33,13 +33,13 @@ export default class Arrow {
     const offset = from_is_below_to ? end_y + this.gantt.options.arrow_curve : end_y - this.gantt.options.arrow_curve
 
     this.path = `
-            M ${start_x} ${start_y}
-            V ${offset}
-            a ${curve} ${curve} 0 0 ${clockwise} ${curve} ${curve_y}
-            L ${end_x} ${end_y}
-            m -5 -5
-            l 5 5
-            l -5 5`
+      M ${start_x} ${start_y}
+      V ${offset}
+      a ${curve} ${curve} 0 0 ${clockwise} ${curve} ${curve_y}
+      L ${end_x} ${end_y}
+      m -5 -5
+      l 5 5
+      l -5 5`
 
     if (this.to_task.$bar.getX() < this.from_task.$bar.getX() + this.gantt.options.padding) {
       const down_1 = this.gantt.options.padding / 2 - curve
@@ -47,17 +47,17 @@ export default class Arrow {
       const left = this.to_task.$bar.getX() - this.gantt.options.padding
 
       this.path = `
-                M ${start_x} ${start_y}
-                v ${down_1}
-                a ${curve} ${curve} 0 0 1 -${curve} ${curve}
-                H ${left}
-                a ${curve} ${curve} 0 0 ${clockwise} -${curve} ${curve_y}
-                V ${down_2}
-                a ${curve} ${curve} 0 0 ${clockwise} ${curve} ${curve_y}
-                L ${end_x} ${end_y}
-                m -5 -5
-                l 5 5
-                l -5 5`
+        M ${start_x} ${start_y}
+        v ${down_1}
+        a ${curve} ${curve} 0 0 1 -${curve} ${curve}
+        H ${left}
+        a ${curve} ${curve} 0 0 ${clockwise} -${curve} ${curve_y}
+        V ${down_2}
+        a ${curve} ${curve} 0 0 ${clockwise} ${curve} ${curve_y}
+        L ${end_x} ${end_y}
+        m -5 -5
+        l 5 5
+        l -5 5`
     }
   }
 
